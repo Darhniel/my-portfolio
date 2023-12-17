@@ -116,7 +116,7 @@ export default function Main() {
                 <h2 className="uppercase text-4xl text-center font-semibold text-white">Contact</h2>
                 <span className="block h-2 w-12 my-4 mx-auto bg-white rounded-lg"></span>
                 <p className="text-white font-medium text-center">
-                    Feel free to contact me by submitting te form below and I will get back to you as soon as possiible.
+                    Feel free to contact me by submitting te form below and I will get back to you as soon as possible.
                 </p>
                 <Form />
                 {/* <form action="" className="md:w-1/2 mx-auto bg-white rounded-lg mt-8 p-8">
