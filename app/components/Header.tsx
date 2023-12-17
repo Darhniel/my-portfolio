@@ -18,7 +18,7 @@ export default function Header() {
                     />
                     <span className="text-black">daniel</span>
                 </div>
-                <ul className="hidden md:flex flex-1 justify-end items-center gap-12 text-mb-text-blue uppercase font-bold">
+                <ul className="hidden md:flex flex-1 justify-end items-center gap-12 text-mb-text-blue uppercase font-bold text-black">
                     <li className="hover:scale-110 hover:transition-all hover:duration-300 hover:text-p-brown font-semibold">
                         <Link href={`/`}>Home</Link>
                     </li>
@@ -26,10 +26,10 @@ export default function Header() {
                         <Link href={`#about`}>About</Link>
                     </li>
                     <li className="hover:scale-110 hover:transition-all hover:duration-300 hover:text-p-brown font-semibold">
-                        <Link href={`/`}>Projects</Link>
+                        <Link href={`#projects`}>Projects</Link>
                     </li>
                     <li className="hover:scale-110 hover:transition-all hover:duration-300 hover:text-p-brown font-semibold">
-                        <Link href={`/`}>Contact</Link>
+                        <Link href={`#contact`}>Contact</Link>
                     </li>
                 </ul>
                 <div className="cursor-pointer flex flex-col items-end md:hidden justify-end" onClick={() => setMobile(!mobile)}>
@@ -50,18 +50,18 @@ export default function Header() {
                 </div>
             </nav>
             <div className={`${mobile ? 'block' : "hidden"} container md:hidden`}>
-                <ul className=' md:block flex-1 justify-end items-center gap-12 text-mb-text-blue uppercase font-bold'>
-                    <li className='cursor-pointer border-t py-4 border-slate-300 md:hover:scale-110 text-red-500'>
+                <ul className=' md:block flex-1 justify-end items-center gap-12 text-mb-text-blue uppercase font-bold text-black'>
+                    <li className='cursor-pointer border-t py-4 border-slate-300 md:hover:scale-110'>
                         <Link href={`/`}>Home</Link>
                     </li>
                     <li className='cursor-pointer border-t py-4 border-slate-300 md:hover:scale-110'>
-                        <Link href={`/`}>About</Link>
+                        <Link href={`#about`}>About</Link>
                     </li>
                     <li className='cursor-pointer border-t py-4 border-slate-300 md:hover:scale-110'>
-                        <Link href={`/`}>Projects</Link>
+                        <Link href={`#projects`}>Projects</Link>
                     </li>
                     <li className='cursor-pointer border-t py-4 border-slate-300 md:hover:scale-110'>
-                        <Link href={`/`}>Contact</Link>
+                        <Link href={`#contact`}>Contact</Link>
                     </li>
                 </ul>
             </div>
