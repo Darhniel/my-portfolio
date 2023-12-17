@@ -9,10 +9,31 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'hero-pattern': "url('/common-bg.svg')",
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        "p-brown": "#5a1c1ccc",
+        "p-grey": "#777783",
+        "p-bg-grey": "#E7E7E7",
+        "footer-black": "#1F1F1F",
+        "top-black": "#1A1A1A",
+        "bottom-grey": "#646567",
+        "bottom-header-white": "#F2F0FB",
+        "mb-gray": "#d2d2d4",
+        "mb-text-grey": "#3A4A6D",
+        "mb-bg-green": "#5CB85C"
+      }
+    },
+    container: {
+      center: true,
+      padding: "1rem",
+      screens: {
+        lg: "1199px",
+        xl: "1199px",
+        "2xl": "1199px"
+      }
     },
   },
   plugins: [],
