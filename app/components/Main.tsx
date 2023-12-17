@@ -48,10 +48,10 @@ export default function Main() {
                     <div>
                         <h3 className="font-bold text-2xl pl-4 mb-6">Get to know me!</h3>
                         <p className="text-p-grey font-medium px-4 mb-4 md:pr-0">
-                            Hey! It's <strong>Daniel</strong> and I'm a <strong>Frontend Web Developer</strong> located in Lagos, Nigeria. You can check out some of my work in the projects section.
+                            Hey! It&lsquo;s <strong>Daniel</strong> and I&lsquo;m a <strong>Frontend Web Developer</strong> located in Lagos, Nigeria. You can check out some of my work in the projects section.
                         </p>
                         <p className="text-p-grey font-medium px-4 md:pr-0">
-                            I'm available for <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have an opportunity that matches my skills and experience then don't hesitate to contact me here.
+                            I&lsquo;m available for <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have an opportunity that matches my skills and experience then don&lsquo;t hesitate to contact me here.
                         </p>
                         <Link href={`#contact`} className="block ml-4 rounded-lg uppercase py-4 px-16 w-min mt-8 bg-p-brown font-semibold text-white hover:transition-all hover:duration-500 hover:-translate-y-2">Contact</Link>
                     </div>
@@ -78,7 +78,7 @@ export default function Main() {
                     <h2 className="uppercase text-4xl text-center font-semibold">Projects</h2>
                     <span className="block h-2 w-12 my-4 mx-auto bg-p-brown rounded-lg"></span>
                     <p className="text-p-grey font-semibold text-center">
-                        Here you will find some of the personal and clients projects that I created, with each project having it's own case study.....
+                        Here you will find some of the personal and clients projects that I created, with each project having it&lsquo;s own case study.....
                     </p>
                 </div>
                 <div>
