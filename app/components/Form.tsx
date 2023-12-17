@@ -1,11 +1,10 @@
-// 'use client'
-// import {useState} from 'react'
+
 
 export default function Form() {
 
     return(
         <>
-            <form target='_blank' action="https://formsubmit.co/nnadidarhniel20@gmail.com" method='POST' className="md:w-1/2 mx-auto bg-white rounded-lg mt-8 p-8">
+            <form target='_blank' action="https://formsubmit.co/ed7363d654fb856343b8bfea672cbf8f" method='POST' className="md:w-1/2 mx-auto bg-white rounded-lg mt-8 p-8">
                 <input type="hidden" name="_captcha" value={"false"}/>
                 <input type="text" name="_honey" style={{display: "none"}}/>
                 {/* <input type="hidden" name="_next" value={"htt"}/> */}

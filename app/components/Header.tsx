@@ -16,7 +16,7 @@ export default function Header() {
                         height={40}
                         alt="Daniel"
                     />
-                    <span className="">daniel</span>
+                    <span className="text-black">daniel</span>
                 </div>
                 <ul className="hidden md:flex flex-1 justify-end items-center gap-12 text-mb-text-blue uppercase font-bold">
                     <li className="hover:scale-110 hover:transition-all hover:duration-300 hover:text-p-brown font-semibold">

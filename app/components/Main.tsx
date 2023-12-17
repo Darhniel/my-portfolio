@@ -38,7 +38,7 @@ export default function Main() {
             </section>
             <section id="about" className="pt-16 pb-8 bg-[#FAFAFA]">
                 <div className="mb-16">
-                    <h2 className="uppercase text-4xl text-center font-semibold">About Me</h2>
+                    <h2 className="uppercase text-4xl text-center font-semibold text-black">About Me</h2>
                     <span className="block h-2 w-12 my-4 mx-auto bg-p-brown rounded-lg"></span>
                     <p className="text-p-grey font-semibold text-center px-4 md:pr-0">
                         Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology...
@@ -46,7 +46,7 @@ export default function Main() {
                 </div>
                 <div className="grid grid-cols-1 gap-6 lg:w-[64rem] lg:mx-auto lg:grid-cols-2 lg:gap-24">
                     <div>
-                        <h3 className="font-bold text-2xl pl-4 mb-6">Get to know me!</h3>
+                        <h3 className="font-bold text-2xl pl-4 mb-6 text-black">Get to know me!</h3>
                         <p className="text-p-grey font-medium px-4 mb-4 md:pr-0">
                             Hey! It&lsquo;s <strong>Daniel</strong> and I&lsquo;m a <strong>Frontend Web Developer</strong> located in Lagos, Nigeria. You can check out some of my work in the projects section.
                         </p>
@@ -56,7 +56,7 @@ export default function Main() {
                         <Link href={`#contact`} className="block ml-4 rounded-lg uppercase py-4 px-16 w-min mt-8 bg-p-brown font-semibold text-white hover:transition-all hover:duration-500 hover:-translate-y-2">Contact</Link>
                     </div>
                     <div className="ml-4">
-                        <h3 className="font-bold text-2xl mb-6">My Skills</h3>
+                        <h3 className="font-bold text-2xl mb-6 text-black">My Skills</h3>
                         <div className="flex flex-wrap">
                             <div className="uppercase bg-p-bg-grey mb-4 mr-4 text-lg font-semibold text-p-grey rounded-lg py-2 px-4">html</div>
                             <div className="uppercase bg-p-bg-grey mb-4 mr-4 text-lg font-semibold text-p-grey rounded-lg py-2 px-4">css</div>
@@ -75,7 +75,7 @@ export default function Main() {
             </section>
             <section id="projects" className="py-16">
                 <div className="mb-16">
-                    <h2 className="uppercase text-4xl text-center font-semibold">Projects</h2>
+                    <h2 className="uppercase text-4xl text-center font-semibold text-black">Projects</h2>
                     <span className="block h-2 w-12 my-4 mx-auto bg-p-brown rounded-lg"></span>
                     <p className="text-p-grey font-semibold text-center">
                         Here you will find some of the personal and clients projects that I created, with each project having it&lsquo;s own case study.....
@@ -94,7 +94,7 @@ export default function Main() {
                             />
                         </div>
                         <div className="md:w-[25rem]">
-                            <h3 className="text-center uppercase text-4xl mb-8 md:text-left md:mb-4">Movie Buddy</h3>
+                            <h3 className="text-center uppercase text-4xl mb-8 md:text-left md:mb-4 text-black">Movie Buddy</h3>
                             <p className="text-center text-p-grey leading-6 px-4 md:text-left md:px-0">
                                 Movie Buddy is a comprehensive web application designed to provide users with a seamless movie searching and browsing experience. With a user-friendly interface and powerful search capabilities.
                             </p>

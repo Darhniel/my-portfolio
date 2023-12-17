@@ -50,7 +50,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="md:w-[25rem]">
-                    <h3 className="text-center capitalize font-semibold text-4xl mb-8 md:text-left md:mb-4">Project overview</h3>
+                    <h3 className="text-center capitalize font-semibold text-4xl mb-8 md:text-left md:mb-4 text-black">Project overview</h3>
                     <p className="text-center text-p-grey leading-6 px-4 md:text-left md:px-0">
                         Movie Buddy is a comprehensive web application designed to provide users with a seamless movie searching and browsing experience. With a user-friendly interface and powerful search capabilities.
                     </p>
@@ -68,7 +68,7 @@ export default function Page() {
             </div>
 
             <div className="w-1/2 mx-auto">
-                <h3 className="font-bold text-2xl mb-6">My Skills</h3>
+                <h3 className="font-bold text-2xl mb-6 text-black">Built with:</h3>
                 <div className="flex flex-wrap">
                     <div className="uppercase bg-p-bg-grey mb-4 mr-4 text-lg font-semibold text-p-grey rounded-lg py-2 px-4">tailwind css</div>
                     <div className="uppercase bg-p-bg-grey mb-4 mr-4 text-lg font-semibold text-p-grey rounded-lg py-2 px-4">typescript</div>
